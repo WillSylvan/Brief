@@ -1,223 +1,247 @@
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arvo|Dosis|PT+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Arvo|Dosis|PT+Sans|Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
 </head>
 
 <body>
     <div class="container">
 
-        <div class="brief"> 
-            <h1> Brief </h1>
-        </div> 
-
-        <div class="inputs"> 
-
-            <form action="/action_page.php">
-
-                <div class="ProjectInput">
-                    <label for="pName"><p>Project Name</p></label><br>
-                    <input type="text" id="pName" name="pName">
+        <h1 class="brief" >Brief</h1>
+        
+        <div class="project-info-container">
+            <div class="left">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                </p>
+            </div>
+            <div class="right">
+                <div class="input-style full-width">
+                    <label for="pName" >Project Name</label>
+                    <input type="text" name="project_name">
                 </div> 
-
-                <div class="firstInputPair">
-                    <div class="straightInputs">
-                        <label for="name"><p>Name</p></label><br>
-                        <input type="text" class="inputStyle" name="name">
+                <div>
+                    <div class="input-style">
+                        <label for="name">Name</label>
+                        <input type="text" name="name">
                     </div>
-
-                    <br>
-
-                    <div class="straightInputs">
-                        <label for="company"><p>Company</p></label><br>
-                        <input type="text" class="inputStyle" name="company">
+                    <div class="input-style" >
+                        <label for="company">Company</label>
+                        <input type="text" name="company">
                     </div>
-                </div>
-
-
-                <br>
-
-                <div class="secondInputPair">
-                    <div class="straightInputs">
-                        <label for="eMail"><p>E-mail</p></label><br>
-                        <input type="text" class="inputStyle" name="eMail">
+                    <div class="input-style" >
+                        <label for="company">E-mail</label>
+                        <input type="text" name="email">
                     </div>
-
-                    <br>
-
-                    <div class="straightInputs">
-                        <label for="telephone"><p>Telephone</p></label><br>
-                        <input type="text" class="inputStyle" name="telephone">
+                    <div class="input-style" >
+                        <label for="company">Telephone</label>
+                        <input type="text" name="phone">
                     </div>
-                </div>
-
-                <div class="clearer"></div>
-            </form>
-        </div> 
-
-
-        <!--SERVICE MENU-->
-
-        <!--Pirmais bloks-->
-
-        <div class="servicesMenu"> 
-
-            <div class="nameOfServicesMenu"><h1>PAKALPOJUMU IZVĒLE</h1></div>
-
-            <div class="AllSixBlocks"> 
-
-                <div class="box">
-
-                    <div class="boxName"><h1>Avertisiment & Strategy</h1></div>
-
-                    <div class="TextAndCheckBox">
-                        <form>
-                            <fieldset class="checkboxes">
-                                <ul>
-                                    <li>
-                                        <div class="BoxWithTextAndCheckBox">
-                                            <label for="happy">- Google 360°</label>
-                                            <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                        </div>
-                                    </li>
-                                </ul>
-                            </fieldset>
-                        </form>
-                    </div>
-
-                </div>
-            
-
-                <div class="box">
-
-                    <div class="boxName"><h1>Design</h1></div>
-
-                        <div class="TextAndCheckBox">
-                            <form>
-                                <fieldset class="checkboxes">
-                                    <ul>
-                                        <li>
-                                            <div class="BoxWithTextAndCheckBox">
-                                                <label for="happy">- Google 360°</label>
-                                                <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </fieldset>
-                            </form>
-                        </div>
-                </div>
-
-                <div class="box">
-
-                    <div class="boxName"><h1>Independet Idea</h1></div>
-
-                        <div class="TextAndCheckBox">
-                            <form>
-                                <fieldset class="checkboxes">
-                                    <ul>
-                                        <li>
-                                            <div class="BoxWithTextAndCheckBoxSecond">
-                                                <label for="happy">- Google 360°</label>
-                                                <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </fieldset>
-                            </form>
-                        </div>
-
-                </div>
-
-<!--Otrais bloks-->
-
-                <div class="box">
-
-                    <div class="boxName2"><h1>Avertisiment & Strategy</h1></div>
-
-                    <div class="TextAndCheckBox">
-                        <form>
-                            <fieldset class="checkboxes">
-                                <ul>
-                                    <li>
-                                        <div class="BoxWithTextAndCheckBox">
-                                            <label for="happy">- Google 360°</label>
-                                            <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </fieldset>
-                        </form>
-                    </div>
-
-                </div>
-            
-                <div class="box">
-
-                    <div class="boxName2"><h1>Design</h1></div>
-
-                        <div class="TextAndCheckBox">
-                            <form>
-                                <fieldset class="checkboxes">
-                                    <ul>
-                                        <li>
-                                            <div class="BoxWithTextAndCheckBox">
-                                                <label for="happy">- Google 360°</label>
-                                                <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                            </div>
-                                        </li>
-
-                                    </ul>
-                                </fieldset>
-                            </form>
-                        </div>
-
-                </div>
-
-                <div class="box">
-
-                    <div class="boxName2"><h1>Independet Idea</h1></div>
-
-                        <div class="TextAndCheckBox">
-                            <form>
-                                <fieldset class="checkboxes">
-                                    <ul>
-                                        <li>
-                                            <div class="BoxWithTextAndCheckBoxSecond">
-
-                                                <label for="happy">- Google 360°</label>
-                                                <input type="checkbox" name="happy" value="yep" class="checkboxInEnd" />
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </fieldset>
-                            </form>
-                        </div>
                 </div>
             </div>
-
-        </div> 
-
-        <div class="thePlannedSector"> 
-            <form>
-                <div class="NameOfPlannedSector"><h1>Plānotā darbības nozare</h1></div>
-                <input type="text" name="firstname" class="ThePlannedSectorInput">
-            </form>
-        
-
-
+            <div class="clr"></div>
         </div>
-
-
-
+        
+        <!--SERVICE MENU-->
+        <div class="services-container"> 
+            <h1>Pakalpojumu izvēlne</h1>
+            
+            <div class="services-blocks">
+                
+                <div class="service-item silver">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-item silver">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-item silver">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-item pink">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-item pink">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-item pink">
+                    <h2>Title</h2>
+                    <div class="item-content">
+                        <ul>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                            <li>
+                                <p>
+                                    - Lorem ipsum dolor sit amet
+                                </p>
+                                <input type="checkbox" name="whatever">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div> 
     </div>
 
 

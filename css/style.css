@@ -1,0 +1,118 @@
+h1{
+    margin: 0px;
+}
+body {
+   font-family: 'PT Sans', sans-serif;
+   color:#bbbbbb;
+}
+
+.brief {
+    font-size: 90px;
+    text-align: center;
+    color: #ff1a75;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.project-info-container {
+    margin-top:120px;
+}
+.project-info-container .left {
+    float:left;
+    width:240px;
+}
+.project-info-container .left p {
+    margin:0px;
+    font-size:14px;
+    color:#bbbbbb;
+}
+.project-info-container .right{
+    float:right;
+    width:880px;
+}
+
+.input-style {
+    margin-bottom: 40px;
+    display: inline-block;
+    margin-right:87px;
+}
+.input-style label {
+    display:block;
+    margin-bottom:10px;
+    color:#bbbbbb;
+}
+
+.input-style.full-width input {
+    width:100%;
+}
+.input-style.full-width {
+    display:block;
+    margin-right:0px;
+}
+
+.input-style input {
+    height:45px;
+    border: 1px solid #bbbbbb;;
+    font-size:30px;
+    color:#bbbbbb;
+    width:390px;
+}
+
+.project-info-container .right .input-style:nth-child(2), .project-info-container .right .input-style:nth-child(4) {
+    margin-right: 0px;
+}
+.container{
+    width: 1200px;
+    margin:0px auto;
+}
+.clr {
+    clear:both;
+}
+.services-container{
+    margin-top: 200px;   
+}
+.services-container h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom:65px;
+}
+
+.services-blocks {}
+
+.service-item {
+    display: inline-block;
+    width: 330px;
+    min-height: 300px;
+    margin-right:100px;
+    margin-bottom: 40px;
+}
+.service-item:nth-child(3n) {
+    margin-right:0px;
+}
+.service-item h2 {
+    margin: 0px;
+    text-align: center;
+    color:white;
+    padding: 15px 0px;
+}
+.service-item.silver h2 {
+    background-color:#cecece;
+}
+.service-item.pink h2 {
+    background-color:#ff1e8e;
+}
+.item-content ul {
+    margin: 45px 0px 0px 0px;
+    padding: 0px;
+}
+.item-content li {
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+
+.item-content li p {
+    margin: 0px;
+    display: inline-block;
+    width: 275px;
+    padding-right: 30px;
+    font-size:14px;
+}
