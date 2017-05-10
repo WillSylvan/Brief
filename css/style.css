@@ -6,6 +6,11 @@ body {
    color:#bbbbbb;
 }
 
+.container{
+    height: 7000px;
+
+}
+
 .brief {
     font-size: 90px;
     text-align: center;
@@ -88,6 +93,8 @@ body {
 .service-item:nth-child(3n) {
     margin-right:0px;
 }
+
+
 .service-item h2 {
     margin: 0px;
     text-align: center;
