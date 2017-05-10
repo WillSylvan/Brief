@@ -6,11 +6,6 @@ body {
    color:#bbbbbb;
 }
 
-.container{
-    height: 7000px;
-
-}
-
 .brief {
     font-size: 90px;
     text-align: center;
@@ -64,6 +59,7 @@ body {
 
 .project-info-container .right .input-style:nth-child(2), .project-info-container .right .input-style:nth-child(4) {
     margin-right: 0px;
+
 }
 .container{
     width: 1200px;
@@ -83,17 +79,21 @@ body {
 
 .services-blocks {}
 
+.three-Item-blocks{
+   
+}
+
 .service-item {
     display: inline-block;
     width: 330px;
     min-height: 300px;
     margin-right:100px;
     margin-bottom: 40px;
+    vertical-align: top;
 }
 .service-item:nth-child(3n) {
     margin-right:0px;
 }
-
 
 .service-item h2 {
     margin: 0px;
@@ -107,6 +107,11 @@ body {
 .service-item.pink h2 {
     background-color:#ff1e8e;
 }
+
+.item-content {
+
+}
+
 .item-content ul {
     margin: 45px 0px 0px 0px;
     padding: 0px;
@@ -123,3 +128,145 @@ body {
     padding-right: 30px;
     font-size:14px;
 }
+
+.planned-sector-container h1{
+    text-align: center;
+}
+
+.planned-sector-input input{
+    margin-top: 25px;
+    width: 1198px;
+    height:35px; 
+}
+
+.competition-level-meter{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    height: 220px;
+    width: 1200px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.planned-sector-container .level-meter{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 90px;
+    color:#ff1e8e;
+    font-family: 'Poppins', sans-serif;
+    height: 110px
+}
+
+.planned-sector-container .competition-level{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Nixie One', cursive;
+
+}
+
+
+.competition-level-range p{
+    display: inline;
+    font-size: 18px;
+     text-transform: uppercase;
+}
+
+.competition-level-range{
+    width: 1215px;
+}
+
+.competition-level-range input {
+    width: 1200px;
+    font-size:30px;
+
+}
+
+.competition-level-range p:nth-child(2n) {
+    margin-left: 1103px;
+}
+
+.activity-sector {
+    margin-top: 50px;
+    width: 1300px;
+
+}
+
+
+.activity-sector label input {
+    display: none;
+  
+}
+
+.activity-sector label {
+    margin-top: 20px;
+  
+}
+
+
+
+.activity-sector input + span {
+    border: solid 1px black;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 288px;
+    height: 75px;
+    margin-right:100px;
+}
+
+.activity-sector input:checked + span {
+    background-color: red;
+}
+
+.activity-sector input + span:nth-child(3n) {
+    margin-right:0px;
+}
+.activity-sector span {
+    font-size:30px;
+    text-align: center;
+}
+
+.competition-level{
+    margin-bottom: 20px;
+
+}
+
+.communication-channels{
+     margin-top: 50px;
+     width: 1300px;
+
+}
+.communication-channels label input {
+    display: none;
+  
+}
+
+.communication-channels label {
+    margin-top: 20px;
+  
+}
+
+.communication-channels input + span {
+    border: solid 1px black;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 146px;
+    height: 75px;
+    margin-right:10px;
+}
+
+.communication-channels input:checked + span {
+    background-color: red;
+}
+.communication-channels input + span:nth-child(3n) {
+    margin-right:0px;
+}
+.communication-channels span {
+    font-size:30px;
+    text-align: center;
+}
+
+
+
+
+
+
