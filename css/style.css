@@ -164,7 +164,6 @@ body {
 
 }
 
-
 .competition-level-range p{
     display: inline;
     font-size: 18px;
@@ -191,7 +190,6 @@ body {
 
 }
 
-
 .activity-sector label input {
     display: none;
   
@@ -201,8 +199,6 @@ body {
     margin-top: 20px;
   
 }
-
-
 
 .activity-sector input + span {
     border: solid 1px black;
@@ -227,6 +223,7 @@ body {
 
 .competition-level{
     margin-bottom: 20px;
+    text-align: center;
 
 }
 
@@ -265,6 +262,59 @@ body {
     text-align: center;
 }
 
+/*.communication-channels:focus {
+	background-color:rgb(255, 255, 255);
+	transition:all 0.0s linear 0s;
+	cursor:pointer;
+}*/
+
+.target-audience{
+    margin-top: 50px;
+}
+
+.target-audience-map{
+    background-color: lightgreen;
+    width: 1200px;
+    height: 900px;
+    margin-bottom: 50px;
+}
+
+.age-audience-gain{
+    width: 1200px;
+    height: 500px;
+}
+
+.item-age-audience-gain{
+    display:inline-block;
+    width: 325px;
+    height: auto;
+    margin-right: 105px;
+    vertical-align: top;
+}
+
+.item-age-audience-gain:last-child {
+    margin-right: 0px;
+}
+
+.numbers-in-box{
+    width: 100%;
+    height: 150px;
+    border: solid 1px black;
+    margin-top: 20px;
+}
+
+.rage-for-age-audience-gain{
+    width: 100%;
+    height: 100px;
+}
+
+.rage-for-age-audience-gain{
+    margin-top: 10px;
+}
+
+.rage-for-age-audience-gain input{
+    width: 100%;
+}
 
 
 
