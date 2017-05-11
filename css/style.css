@@ -335,6 +335,7 @@ body {
     height: 150px;
     border: solid 1px #fe1e8e;
     margin-top: 20px;
+    text-align: center;
 }
 
 .numbers-in-box h1{
