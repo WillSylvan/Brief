@@ -6,6 +6,11 @@ body {
    color:#bbbbbb;
 }
 
+.container{
+    width: 1200px;
+    margin:0px auto;
+}
+
 .brief {
     font-size: 150px;
     text-align: center;
@@ -61,10 +66,7 @@ body {
     margin-right: 0px;
 
 }
-.container{
-    width: 1200px;
-    margin:0px auto;
-}
+
 .clr {
     clear:both;
 }
@@ -77,7 +79,9 @@ body {
     margin-bottom:65px;
 }
 
-.services-blocks {}
+.services-blocks {
+
+}
 
 .three-Item-blocks{
    
@@ -280,7 +284,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 
 .communication-channels input:checked + span {
     background-color: #fe1e8e;
