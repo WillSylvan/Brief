@@ -88,7 +88,6 @@ body {
     width: 330px;
     min-height: 300px;
     margin-right:100px;
-    margin-bottom: 40px;
     vertical-align: top;
 }
 .service-item:nth-child(3n) {
@@ -129,8 +128,11 @@ body {
     font-size:14px;
 }
 
-.planned-sector-container h1{
+.specific-name{
     text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+
 }
 
 .planned-sector-input input{
@@ -193,6 +195,7 @@ body {
 .activity-sector {
     margin-top: 50px;
     width: 1300px;
+    display: flex;
 
 }
 
@@ -209,7 +212,6 @@ body {
 .activity-sector input + span {
     border: solid 1px #6a6a6a;
     padding: 5px 20px;
-    display: inline-block;
     width: 288px;
     height: 75px;
     margin-right:100px;
@@ -217,6 +219,14 @@ body {
 
 .activity-sector input:checked + span {
     background-color: #fe1e8e;
+}
+
+.activity-sector label span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
 
 .activity-sector:last-child {
@@ -240,13 +250,12 @@ body {
 
 .communication-channels-name{
     width: 1198px;
-    margin-bottom: 40px;
 }
 
 
 .communication-channels{
-     margin-top: 50px;
-     width: 1210px;
+    width: 1210px;
+    display: flex;
 
 }
 
@@ -256,7 +265,6 @@ body {
 }
 
 .communication-channels label {
-    margin-top: 50px;
   
 }
 
@@ -267,7 +275,12 @@ body {
     width: 146px;
     height: 75px;
     margin-right:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .communication-channels input:checked + span {
     background-color: #fe1e8e;
@@ -348,6 +361,12 @@ body {
 .enlightenment {
     margin-top: 0px;
     width: 1300px;
+    display: flex;
+
+}
+
+.enlightenment p {
+    margin-top: 20px;
 
 }
 
@@ -367,6 +386,10 @@ body {
     width: 288px;
     height: 100px;
     margin-right:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .enlightenment input:checked + span {
@@ -391,6 +414,8 @@ body {
 .nine-goals-blocks{
     margin-top: 50px;
     width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .nine-goals-blocks label input {
@@ -399,18 +424,37 @@ body {
 }
 
 .nine-goals-blocks label {
-    margin-top: 20px;
+
 }
 
 .nine-goals-blocks input + span {
-    border: solid 1px #fe1e8e;;
+    border: solid 1px #fe1e8e;
     padding: 5px 20px;
-    display: inline-block;
     width: 342px;
     height: 240px;
     margin-right:20px;
     margin-bottom:20px;
     vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.goal-name {
+    border: solid 1px #ffffff;
+    padding: 5px 20px;
+    width: 342px;
+    height: 240px;
+    margin-right:20px;
+    margin-bottom:20px;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .nine-goals-blocks input:checked + span {
@@ -430,8 +474,6 @@ body {
 
 .project-specification-name{
     width: 1198px;
-    margin-bottom: 40px;
-
 }
 
 .project-specification{
@@ -439,8 +481,9 @@ body {
 
 }
 .project-specification{
-    margin-top: 50px;
     width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
 
 }
 
@@ -457,12 +500,15 @@ body {
 .project-specification input + span {
     border: solid 1px #fe1e8e;;
     padding: 5px 20px;
-    display: inline-block;
     width: 342px;
     height: 240px;
     margin-right:20px;
     margin-bottom:20px;
     vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-specification input:checked + span {
@@ -482,19 +528,22 @@ body {
 
 .functions-name{
     width: 1198px;
-    margin-bottom: 40px;
 
 }
 
 .functions{
     width: 1198px;
+    display:flex;
+    display-wrap:wrap;
+    flex-wrap: wrap;
 
 }
-.functions{
+/*.functions{
     margin-top: 50px;
     width: 1300px;
-
-}
+     display-wrap:wrap;
+    flex-wrap: wrap;
+}*/
 
 .functions label input {
     display: none;
@@ -511,9 +560,13 @@ body {
     padding: 5px 20px;
     display: inline-block;
     width: 342px;
-    height: 240px;
+    height: 135px;
     margin-right:20px;
     margin-bottom:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .functions input:checked + span {
@@ -530,15 +583,10 @@ body {
     text-align: center;
 }
 
-/*palielam te notiek visa maģija*/
 .functions label:last-child {
-    /*nevar floatotos elemntus iecentrēt, tāpēc ņemam nost floatus*/
     float:none;
-    /*iecentrējam*/
     margin:0px auto;
-    /*nevar iecentrēt elementus kuriem nav display:block;, pa cik label tagam by default ir display:inline-block;, tapec mes uzliekam šo*/ 
     display: block;
-    /*lai iecentrētu elemntu, šajā gadījumā jo tu tur nedaudz kluudijies, obligati janorada platums*/
     width:483px;
 }
 
