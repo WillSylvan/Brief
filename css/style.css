@@ -7,9 +7,9 @@ body {
 }
 
 .brief {
-    font-size: 90px;
+    font-size: 150px;
     text-align: center;
-    color: #ff1a75;
+    color: #fe1e8e;
     font-family: 'PT Sans', sans-serif;
 }
 
@@ -139,6 +139,12 @@ body {
     height:35px; 
 }
 
+.competition-level-name{
+    width: 1198px;
+    margin-bottom: 40px;
+}
+
+
 .competition-level-meter{
     margin-top: 50px;
     margin-bottom: 25px;
@@ -152,22 +158,22 @@ body {
     padding-top: 75px;
     text-align: center;
     font-size: 90px;
-    color:#ff1e8e;
+    color:#fe1e8e;
     font-family: 'Poppins', sans-serif;
     height: 110px
 }
 
 .planned-sector-container .competition-level{
     text-align: center;
-    font-size: 22px;
-    font-family: 'Nixie One', cursive;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 
 }
 
 .competition-level-range p{
     display: inline;
     font-size: 18px;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .competition-level-range{
@@ -201,7 +207,7 @@ body {
 }
 
 .activity-sector input + span {
-    border: solid 1px black;
+    border: solid 1px #6a6a6a;
     padding: 5px 20px;
     display: inline-block;
     width: 288px;
@@ -210,15 +216,20 @@ body {
 }
 
 .activity-sector input:checked + span {
-    background-color: red;
+    background-color: #fe1e8e;
 }
 
-.activity-sector input + span:nth-child(3n) {
+.activity-sector:last-child {
     margin-right:0px;
 }
 .activity-sector span {
     font-size:30px;
     text-align: center;
+}
+
+.competition-level label{
+    margin-top: 20px;        
+    
 }
 
 .competition-level{
@@ -227,23 +238,30 @@ body {
 
 }
 
+.communication-channels-name{
+    width: 1198px;
+    margin-bottom: 40px;
+}
+
+
 .communication-channels{
      margin-top: 50px;
-     width: 1300px;
+     width: 1210px;
 
 }
+
 .communication-channels label input {
     display: none;
   
 }
 
 .communication-channels label {
-    margin-top: 20px;
+    margin-top: 50px;
   
 }
 
 .communication-channels input + span {
-    border: solid 1px black;
+    border: solid 1px #fe1e8e;
     padding: 5px 20px;
     display: inline-block;
     width: 146px;
@@ -252,21 +270,24 @@ body {
 }
 
 .communication-channels input:checked + span {
-    background-color: red;
+    background-color: #fe1e8e;
 }
 .communication-channels input + span:nth-child(3n) {
     margin-right:0px;
 }
 .communication-channels span {
+    width: 20px;
+    height: 20px;
     font-size:30px;
     text-align: center;
+
 }
 
-/*.communication-channels:focus {
-	background-color:rgb(255, 255, 255);
-	transition:all 0.0s linear 0s;
+.communication-channels span:focus {
+	background-color:rgb(0, 255, 255);
+	transition:all 0.1s linear 0s;
 	cursor:pointer;
-}*/
+}
 
 .target-audience{
     margin-top: 50px;
@@ -281,7 +302,7 @@ body {
 
 .age-audience-gain{
     width: 1200px;
-    height: 500px;
+    height: 300px;
 }
 
 .item-age-audience-gain{
@@ -299,10 +320,13 @@ body {
 .numbers-in-box{
     width: 100%;
     height: 150px;
-    border: solid 1px black;
+    border: solid 1px #fe1e8e;
     margin-top: 20px;
 }
 
+.numbers-in-box h1{
+    margin-top: 50px;
+}
 .rage-for-age-audience-gain{
     width: 100%;
     height: 100px;
@@ -315,6 +339,198 @@ body {
 .rage-for-age-audience-gain input{
     width: 100%;
 }
+
+.enlightenment-name{
+    width: 1198px;
+    margin-bottom: 40px;
+
+}
+.enlightenment {
+    margin-top: 0px;
+    width: 1300px;
+
+}
+
+.enlightenment label input {
+    display: none;
+  
+}
+
+.enlightenment span {
+  
+}
+
+.enlightenment input + span {
+    border: solid 1px #6a6a6a;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 288px;
+    height: 100px;
+    margin-right:100px;
+}
+
+.enlightenment input:checked + span {
+    background-color: #fe1e8e;
+}
+
+.enlightenment:last-child {
+    margin-right:0px;
+}
+.enlightenment span {
+    font-size:30px;
+    text-align: center;
+}
+
+.enlightenment label span {
+
+}
+
+/*te sakas cits */
+
+
+.nine-goals-blocks{
+    margin-top: 50px;
+    width: 1300px;
+}
+
+.nine-goals-blocks label input {
+    display: none;
+
+}
+
+.nine-goals-blocks label {
+    margin-top: 20px;
+}
+
+.nine-goals-blocks input + span {
+    border: solid 1px #fe1e8e;;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 342px;
+    height: 240px;
+    margin-right:20px;
+    margin-bottom:20px;
+    vertical-align: top;
+}
+
+.nine-goals-blocks input:checked + span {
+    background-color: #fe1e8e;
+}
+
+.nine-goals-blocks:last-child {
+    margin-right:0px;
+}
+
+.nine-goals-blocks span {
+    font-size:30px;
+    text-align: center;
+}
+
+/*velviens salas*/
+
+
+.project-specification-name{
+    width: 1198px;
+    margin-bottom: 40px;
+
+}
+
+.project-specification{
+    width: 1198px;
+
+}
+.project-specification{
+    margin-top: 50px;
+    width: 1300px;
+
+}
+
+.project-specification label input {
+    display: none;
+  
+}
+
+.project-specification label {
+    margin-top: 20px;
+  
+}
+
+.project-specification input + span {
+    border: solid 1px #fe1e8e;;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 342px;
+    height: 240px;
+    margin-right:20px;
+    margin-bottom:20px;
+    vertical-align: top;
+}
+
+.project-specification input:checked + span {
+    background-color: #fe1e8e;
+}
+
+.project-specification:last-child {
+    margin-right:0px;
+}
+
+.project-specification span {
+    font-size:30px;
+    text-align: center;
+}
+
+/*funciju*/
+
+.functions-name{
+    width: 1198px;
+    margin-bottom: 40px;
+
+}
+
+.functions{
+    width: 1198px;
+
+}
+.functions{
+    margin-top: 50px;
+    width: 1300px;
+
+}
+
+.functions label input {
+    display: none;
+  
+}
+
+.functions label {
+    margin-top: 20px;
+  
+}
+
+.functions input + span {
+    border: solid 1px #fe1e8e;;
+    padding: 5px 20px;
+    display: inline-block;
+    width: 342px;
+    height: 240px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.functions input:checked + span {
+    background-color: #fe1e8e;
+}
+
+.functions:last-child {
+    margin-right:0px;
+}
+
+.functions span {
+    font-size:30px;
+    text-align: center;
+}
+
+
 
 
 
