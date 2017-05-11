@@ -530,9 +530,15 @@ body {
     text-align: center;
 }
 
-
-
-
-
-
+/*palielam te notiek visa maģija*/
+.functions label:last-child {
+    /*nevar floatotos elemntus iecentrēt, tāpēc ņemam nost floatus*/
+    float:none;
+    /*iecentrējam*/
+    margin:0px auto;
+    /*nevar iecentrēt elementus kuriem nav display:block;, pa cik label tagam by default ir display:inline-block;, tapec mes uzliekam šo*/ 
+    display: block;
+    /*lai iecentrētu elemntu, šajā gadījumā jo tu tur nedaudz kluudijies, obligati janorada platums*/
+    width:483px;
+}
 
