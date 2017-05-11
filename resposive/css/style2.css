@@ -576,6 +576,7 @@ body {
     margin-right:0px;
     margin-right: 30px;
 }
+
 .functions span {
     font-size:30px;
     text-align: center;
@@ -588,20 +589,5 @@ body {
     width:483px;
 }
 
-
-
-.tes-test *:hover{
-    font-size:50px;
-}
-
-.tes-test h1 {
-    color: yellow
-}
-.tes-test h2 {
-    color:red;
-}
-.tes-test p {
-    color:blue;
-}
 
 

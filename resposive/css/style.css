@@ -134,11 +134,13 @@ body {
 
 .specific-name{
     text-align: center;
-    margin:60px 0px 15px 0px;
+    margin-top: 60px;
+    margin-bottom: 15px;
 
 }
 
 .planned-sector-input input{
+    margin-top: 25px;
     width: 1198px;
     height:35px; 
 }
@@ -149,45 +151,50 @@ body {
 }
 
 
-.competition-level-meter {
+.competition-level-meter{
+    margin-top: 50px;
+    margin-bottom: 25px;
     height: 220px;
     width: 1200px;
-    border:1px solid;
-    margin:50px 0px 25px 0px;
-    text-align: center;
-}
-.competition-level-meter h2 {
-    padding-top: 95px;
-    margin:0px;
-    font-size: 90px;
-    color:#fe1e8e;
-    line-height: 84px;
-    font-family: 'Poppins', sans-serif;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.competition-level-meter p {
-    margin:0px;
-    padding: 0px;
+.planned-sector-container .level-meter{
+    padding-top: 75px;
+    text-align: center;
+    font-size: 90px;
+    color:#fe1e8e;
+    font-family: 'Poppins', sans-serif;
+    height: 110px
+}
+
+.planned-sector-container .competition-level{
+    text-align: center;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
+
 }
-.competition-level-range p.right{
-    float: right;
-}
-.competition-level-range p.left{
-    float: left;
-}
+
 .competition-level-range p{
     display: inline;
     font-size: 18px;
     text-transform: uppercase;
 }
 
+.competition-level-range{
+    width: 1215px;
+}
+
 .competition-level-range input {
     width: 1200px;
     font-size:30px;
+
 }
 
+.competition-level-range p:nth-child(2n) {
+    margin-left: 1103px;
+}
 
 .activity-sector {
     margin-top: 50px;
@@ -216,7 +223,6 @@ body {
 
 .activity-sector input:checked + span {
     background-color: #fe1e8e;
-    color:white;
 }
 
 .activity-sector label span {
@@ -281,7 +287,6 @@ body {
 
 .communication-channels input:checked + span {
     background-color: #fe1e8e;
-    color:white;
 }
 .communication-channels input + span:nth-child(3n) {
     margin-right:0px;
@@ -576,6 +581,7 @@ body {
     margin-right:0px;
     margin-right: 30px;
 }
+
 .functions span {
     font-size:30px;
     text-align: center;
@@ -588,20 +594,5 @@ body {
     width:483px;
 }
 
-
-
-.tes-test *:hover{
-    font-size:50px;
-}
-
-.tes-test h1 {
-    color: yellow
-}
-.tes-test h2 {
-    color:red;
-}
-.tes-test p {
-    color:blue;
-}
 
 
