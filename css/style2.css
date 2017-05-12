@@ -1,3 +1,9 @@
+@media only screen and (min-width: 1000px) {
+    body {
+        
+    }
+}
+
 h1{
     margin: 0px;
 }
@@ -10,7 +16,6 @@ body {
     width: 64%;
     height: auto;
     margin:0px auto;
-    border: solid;
 }
 
 .brief {
@@ -25,7 +30,7 @@ body {
 }
 .project-info-container .left {
     float:left;
-    width:27%;
+    width:30%;
 }
 .project-info-container .left p {
     margin:0px;
@@ -49,7 +54,7 @@ body {
 }
 
 .input-style.full-width input {
-    width:110%;
+    width:100%;
 }
 .input-style.full-width {
     display:block;
@@ -61,11 +66,12 @@ body {
     border: 1px solid #bbbbbb;;
     font-size:30px;
     color:#bbbbbb;
-    width: 113.5%;
+    width: 100%;
 }
 
 .project-info-container .right .input-style:nth-child(1), .project-info-container .right .input-style:nth-child(3) {
-    margin-right: 111px;
+    margin-right: 78px;
+    margin-left: 76px;
 
 }
 
