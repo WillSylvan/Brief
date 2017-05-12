@@ -392,8 +392,10 @@ body {
     align-items: center;
 }
 
+
 .enlightenment input:checked + span {
     background-color: #fe1e8e;
+    color:white;
 }
 
 .enlightenment:last-child {
@@ -459,6 +461,7 @@ body {
 
 .nine-goals-blocks input:checked + span {
     background-color: #fe1e8e;
+    color:white;
 }
 
 .nine-goals-blocks:last-child {
@@ -512,6 +515,7 @@ body {
 
 .project-specification input:checked + span {
     background-color: #fe1e8e;
+    color:white;
 }
 
 .project-specification:last-child {
@@ -570,6 +574,7 @@ body {
 
 .functions input:checked + span {
     background-color: #fe1e8e;
+    color:white;
 }
 
 .functions:last-child {
@@ -586,22 +591,6 @@ body {
     margin:0px auto;
     display: block;
     width:483px;
-}
-
-
-
-.tes-test *:hover{
-    font-size:50px;
-}
-
-.tes-test h1 {
-    color: yellow
-}
-.tes-test h2 {
-    color:red;
-}
-.tes-test p {
-    color:blue;
 }
 
 
